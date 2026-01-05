@@ -5,9 +5,9 @@ This repository documents my progress, thought process, and evolving problem-sol
 
 🧩 Contents
 📂 Code Journey
-├── 🐍 python problems
-├── 💻 bash problems
-├── ☕ java problems
+├── 🐍 Easy
+├── 💻 Medium
+├── ☕ Hard
 └── README.md
 
 🚀 Topics Covered
