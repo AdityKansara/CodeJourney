@@ -1,9 +1,9 @@
-# #144 - Binary Tree Preorder Traversal
+# #104 - Maximum Depth of Binary Tree
 # Problem solved by Adity
 # Time Complexity: O(n) - each node is visited once
 # Space Complexity: O(h) - recursion stack, where h is the height of the tree
 
-from typing import Optional, List
+from typing import Optional
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -14,16 +14,15 @@ from typing import Optional, List
 
 
 class Solution:
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        result = []
+    def maxDepth(self, root: Optional[TreeNode]) -> int:
 
         def dfs(node):
             if node is None:
-                return
+                return 0
 
-            result.append(node.val)  # Root
-            dfs(node.left)  # Left
-            dfs(node.right)  # Right
+            left_depth = dfs(node.left)
+            right_depth = dfs(node.right)
 
-        dfs(root)
-        return result
+            return 1 + max(left_depth, right_depth)
+
+        return dfs(root)

@@ -12,6 +12,7 @@ from typing import Optional, List
 #         self.left = left
 #         self.right = right
 
+
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         result = []
@@ -20,8 +21,8 @@ class Solution:
             if node is None:
                 return
 
-            dfs(node.left)    # Left
-            dfs(node.right)   # Right
+            dfs(node.left)  # Left
+            dfs(node.right)  # Right
             result.append(node.val)  # Root
 
         dfs(root)
