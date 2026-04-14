@@ -1,78 +1,83 @@
-📘 Code Journey
+# Code Journey
 
-Welcome to my Code Journey — a collection of solutions I’ve written while practicing LeetCode.
-This repository documents my progress, thought process, and evolving problem-solving skills in Python, Bash, and Java.
+[![Repo size](https://img.shields.io/github/repo-size/AdityKansara/CodeJourney?style=flat-square)](https://github.com/AdityKansara/CodeJourney)
+[![Language](https://img.shields.io/github/languages/top/AdityKansara/CodeJourney?style=flat-square)](https://github.com/AdityKansara/CodeJourney)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](#license)
 
-🧩 Contents
-📂 Code Journey
-├── 🐍 Easy
-├── 💻 Medium
-├── ☕ Hard
-└── README.md
+A growing collection of algorithm practice problems and solution notes for learners preparing for coding interviews.
 
-🚀 Topics Covered
+## Why this repo?
 
-Data Structures: Arrays, Linked Lists, Trees, Stacks, Queues
+`CodeJourney` is designed for:
 
-Algorithms: Recursion, Backtracking, Sorting, Searching
+- learners who want a curated set of Easy / Medium / Hard problems
+- developers working on algorithm and data structure practice
+- people who want clean, well-documented Python, Java, and Bash solutions
 
-Bash scripting (Hackerrank Shell Problems)
+## What’s inside
 
-Java practice for basic algorithmic challenges
+- `Easy/` — beginner-friendly algorithm problems
+- `Medium/` — interview-style challenges
+- `Hard/` — advanced problem solving
+- `README.md` — repo overview, contribution guide, and helpful links
 
-🧠 My Goal
+## Quick start
 
-To improve logical thinking and write clean, efficient code across multiple languages — one problem at a time.
+### Run Python solutions
 
-🗓️ Current Focus
-
-Strengthening Python DSA
-
-Maintaining daily LeetCode progress
-
-Organizing all problem solutions with clear explanations and complexity notes
-
-🏷️ Solution Format
-
-Each solution follows a standard format:
-
-# #Problem Number - Problem Name
-# Problem solved by Adity
-# Time Complexity: O(n)
-# Space Complexity: O(1)
-
-# --- Code ---
-
-💡 Future Additions
-
-LeetCode Daily Challenge Tracker
-
-Problem categorization by difficulty
-
-Notes on edge cases and intuition
-
-✨ About Me
-
-👩‍💻 Adity — learning, building, and documenting my journey through code.
-This repo is a personal log of growth, failures, fixes, and wins in programming.
-
-🧷 How to Run
-# Python solutions
+```bash
 python3 <filename>.py
+```
 
-# Bash scripts
+### Run Bash scripts
+
+```bash
 chmod +x <script>.sh
 ./<script>.sh
+```
 
-# Java programs
+### Run Java programs
+
+```bash
 javac Solution.java
 java Solution
+```
 
-🖋️ License
+## Problem format
 
-This repository is open for learning and reference.
-Feel free to explore and learn — but always write your own code!
+Each solution is written with a consistent header:
 
-⭐ Support
+```python
+# #Problem Number - Problem Name
+# Problem solved by Adity
+# Time Complexity: O(...)
+# Space Complexity: O(...)
+```
 
-If you find this repo helpful, consider starring ⭐ it to support my journey and track my growth!
+This makes it easy to scan for problem number, difficulty, and complexity notes.
+
+## Contribution guide
+
+If you want to help improve this repo:
+
+- add new problems in the correct folder (`Easy`, `Medium`, or `Hard`)
+- follow the same file header and formatting style
+- keep code readable and add concise notes when needed
+- open a pull request with a short description of your addition
+
+See `CONTRIBUTING.md` for full guidelines.
+
+## Ideas for future improvements
+
+- add a problem index or tag list for faster navigation
+- include a difficulty / topic summary table
+- add solution explanations and thought process notes
+- add tests or a CI workflow for syntax checks
+
+## License
+
+This repository is open for learning and reference. Feel free to explore and learn — but always write your own code!
+
+## Support
+
+If this repo helps you, please star it ⭐ and share it with others who are preparing for interviews.
